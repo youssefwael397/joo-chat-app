@@ -73,7 +73,8 @@
 .chat-feed {
   height: 95vh;
   width: 100%;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   background-color: rgb(240, 240, 240);
 }
 
